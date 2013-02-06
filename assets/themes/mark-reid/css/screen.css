@@ -34,7 +34,7 @@ img { -ms-interpolation-mode:bicubic; }
 html>body { font-size:16px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
 
-a { text-decoration: none; color: #339; }
+a { text-decoration: none; color: RGB(0, 119, 34); }
 a:hover { text-decoration: underline; color: #33f; }
 a.pdf:before { 
 	margin-right: 1em;
@@ -65,9 +65,10 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 46em;
+	max-width: 54em;
 	margin: 1.5em auto 3em auto;
-	line-height:1.5em;
+	line-height:2em;
+	font-size: 18px;
 }
 
 #page, #disqus_thread {
@@ -82,6 +83,7 @@ sup { line-height: 1ex; }
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
+	background-color: #f4eed9;
 }
 
 #disqus_thread { padding-top: 0; }
@@ -194,7 +196,7 @@ ul.compact li a {
 /* @end */
 
 /* @group Header */
-#header, #header a { color: silver; }
+#header, #header a { color: black; }
 #header .hover { color: transparent; }
 #header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
 #header:hover a:hover { text-decoration: none; }
@@ -536,6 +538,7 @@ img.maruku-png { }
 	border-radius: 3px;
 	border:1px dashed #ccc;
 	text-decoration:none;
+	color: #37a;
 }
 .tag_box a span{
 	vertical-align:super;
