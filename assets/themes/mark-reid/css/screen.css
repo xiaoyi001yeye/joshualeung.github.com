@@ -51,7 +51,7 @@ h1 { margin-bottom: 1em; }
 h2 {
 	font-size: 100%;
 	line-height: 1.5em;
-	margin:1.5em 0 1.5em 0;
+	margin:1.5em 0 .5em 0;
 	font-weight:bold;
 }
 
@@ -550,3 +550,6 @@ img.maruku-png { }
 	color:#FFF;
 }
 
+.post a.date{
+	color: #777;
+}
