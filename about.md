@@ -16,6 +16,8 @@ Hi, 我是七弦，英文名joshua, 87年天蝎座码农一枚，湖北阳新人
 
 我的Twitter: @szjoshua
 
+我的豆瓣：[http://www.douban.com/people/joshualeung/](http://www.douban.com/people/joshualeung/)
+
 我的又拍: [http://24plus.yupoo.com](http://24plus.yupoo.com)
 
 我的500px: [http://500px.com/joshualeung](http://500px.com/joshualeung)
