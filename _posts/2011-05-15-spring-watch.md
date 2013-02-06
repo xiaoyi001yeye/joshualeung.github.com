@@ -3,7 +3,7 @@ layout: post
 title: "春望"
 description: ""
 category: Poem
-tags: [原创, 文学]
+tags: [诗词]
 ---
 {% include JB/setup %}
 

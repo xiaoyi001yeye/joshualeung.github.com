@@ -3,7 +3,7 @@ layout: post
 title: "赠张永峰"
 description: ""
 category: Poem
-tags: [原创]
+tags: [诗词]
 ---
 {% include JB/setup %}
 
