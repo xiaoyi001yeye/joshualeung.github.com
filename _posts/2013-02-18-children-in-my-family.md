@@ -7,4 +7,4 @@ tags: [杂记, Github]
 ---
 {% include JB/setup %}
 
-![http://pic.yupoo.com/24plus/CErAjfwU/medish.jpg](兄妹俩)
+![兄妹俩](http://pic.yupoo.com/24plus/CErAjfwU/medish.jpg)
