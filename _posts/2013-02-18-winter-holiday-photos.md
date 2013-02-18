@@ -8,6 +8,7 @@ tags: [杂记, Github]
 {% include JB/setup %}
 
 ![Snow](http://pic.yupoo.com/24plus/CEq3aJSH/medish.jpg)
+
 回家当日，大雪纷飞。虽然最终积雪并不厚，但也终究是老天给我的第一份回家礼物。子远堆的小雪人很有创意。
 
 ![兄妹俩](http://pic.yupoo.com/24plus/CErAjfwU/medish.jpg)
