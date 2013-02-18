@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-![Photo of Joshua](/photos/joshua.jpg)
+![Photo of Joshua](http://pic.yupoo.com/24plus/CEqkEvID/medish.jpg)
 
 Hi, 我是七弦，英文名joshua, 87年天蝎座码农一枚，湖北阳新人。2012年3月毕业于华中科技大学计算机系统结构专业，现就职于腾讯公司。
 

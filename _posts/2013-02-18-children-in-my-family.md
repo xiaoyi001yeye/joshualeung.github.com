@@ -7,8 +7,25 @@ tags: [杂记, Github]
 ---
 {% include JB/setup %}
 
-过年带了相机回家，原打算出去好好采采风，拍些风景的，然而因为各种原因，终是没有出门游玩的机会。还好宅在家，人像也是信手拈来的练手题材，不然还真对不起小痰盂。
+晒下过年拍的一些照片：
+
 ![兄妹俩](http://pic.yupoo.com/24plus/CErAjfwU/medish.jpg)
+
+兄妹俩
+
+![子远](http://pic.yupoo.com/24plus/CEq4bN2h/medish.jpg)
+
+梁子远
+
+
 ![家里的过年老菜](http://pic.yupoo.com/24plus/CEqow7Dt/medish.jpg)
+
+年货
+
 ![荒野冬景](http://pic.yupoo.com/24plus/CEqkM0i7/medish.jpg)
+
+荒野冬景
+
 ![汉街夜色](http://pic.yupoo.com/24plus/CEqkXSaq/medish.jpg)
+
+汉街夜色
