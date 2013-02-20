@@ -3,7 +3,7 @@ layout: post
 title: "蛇年春节部分照片"
 description: ""
 category: Web
-tags: [杂记, Github]
+tags: [照片, 摄影, 春节]
 ---
 {% include JB/setup %}
 

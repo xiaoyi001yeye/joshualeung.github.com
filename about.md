@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-![Photo of Joshua](http://pic.yupoo.com/24plus/CEqkEvID/medish.jpg)
+![Photo of Joshua](http://farm9.staticflickr.com/8528/8485278522_0391aba4a7.jpg)
 
 Hi, 我是七弦，英文名joshua, 87年天蝎座码农一枚，湖北阳新人。2012年3月毕业于华中科技大学计算机系统结构专业，现就职于腾讯公司。
 
@@ -19,6 +19,8 @@ Hi, 我是七弦，英文名joshua, 87年天蝎座码农一枚，湖北阳新人
 我的豆瓣：[http://www.douban.com/people/joshualeung/](http://www.douban.com/people/joshualeung/)
 
 我的又拍: [http://24plus.yupoo.com](http://24plus.yupoo.com)
+
+我的Flickr: [http://www.flickr.com/wyk-joshua/](http://www.flickr.com/wyk-joshua/)
 
 我的500px: [http://500px.com/joshualeung](http://500px.com/joshualeung)
 
