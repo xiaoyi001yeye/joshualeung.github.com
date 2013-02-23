@@ -1,6 +1,10 @@
-<div id="page">
+<ul id="post-list">
 	
-  <h1 class="emphnext">{{ page.title }}</h1>
+	<!--text-->
+		<li class="post text">
+			<div class="body">
+				
+				<h1 class="emphnext">{{ page.title }}</h1>
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
@@ -31,6 +35,23 @@
     <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
   {% endif %}
   </div>
+			</div>
+			<div class="meta">
+					<span class="tags">
+						
+							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E7%A7%8B%E5%A4%A9">秋天 </a>
+						
+							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E8%AF%97%E8%AF%8D">诗词 </a>
+						
+					</span>
+				
+			</div>
+		</li>
+</ul>
+
+<div id="page">
+	
+  
   
 </div><!-- End Page -->
 

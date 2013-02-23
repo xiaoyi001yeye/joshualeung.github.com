@@ -1,14 +1,5 @@
 ---
 layout: post
-title: "Jekyll Encoding Issue"
-description: ""
-category: Web
-tags: [Jekyll, Blogging]
----
-{% include JB/setup %}
-
----
-layout: post
 title: 解决Windows中Jekyll由于编码不兼容而无法启动的问题
 description: ""
 category: Software Tricks

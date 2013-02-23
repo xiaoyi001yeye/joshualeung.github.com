@@ -1,7 +1,6 @@
 body {
 	background: #eee url('http://x.libdd.com/farm1/c8b5b1/6e704b51/348A8.png');
 	overflow: hidden;
-	font-size: 1.5em;
 	font-family: Songti;
 }
 
@@ -149,16 +148,13 @@ body {
 	background: #fff url('http://x.libdd.com/farm1/c8b5b1/87f04e98/C75D5.png') repeat-x bottom;
 	border-radius: 5px;
 	box-shadow: 0 1px 2px #bbb;
-	font-size: 1.5em;
+	font-size: 18px;
 	font-family: Songti;
 }
 
 .chat .body { padding-bottom: 24px; }
 
 .title {
-	line-height: 1.8;
-	font-size: 18px;
-	font-family:  'Microsoft Yahei';
 	margin-bottom: 18px;
 	word-wrap: break-word;
 }
@@ -173,11 +169,9 @@ body {
 .link .title a:after { content: ' \2192'; }
 
 .body p, .body ul, .body ol, .body pre, .body blockquote {
-	line-height: 2;
+	line-height: 1.5em;
 	margin-bottom: 18px;
 }
-
-.body ul, .body ol { margin-left: 24px; }
 
 .body ul { list-style: disc; }
 
@@ -188,28 +182,6 @@ body {
 .body blockquote {
 	margin-left: 24px;
 	color: #888;
-}
-
-.text .body a, .quote .body a, .video .body a, .chat .body a, .photoset .body a, .link .body a, .audio .body a, .caption a {
-	margin: 0 -1px;
-	padding: 2px;
-	font-weight: 600;
-	border-bottom: solid 1px #ddd;
-	color: #444;
-}
-
-.text .body a:hover, .quote .body a:hover, .video .body a:hover, .chat .body a:hover, .photoset .body a:hover, .link .body a:hover, .audio .body a:hover, .caption a:hover {
-	padding: 2px 1px;
-	border: solid 1px #222;
-	border-radius: 2px;
-	text-shadow: none;
-	color: #fff;
-	box-shadow: inset 0 1px 0 #888, 0 0 3px #000;
-	background: #444;
-	background: -webkit-linear-gradient(#666, #444);
-	background: -moz-linear-gradient(#666, #444);
-	background: -o-linear-gradient(#666, #444);
-	background: linear-gradient(#666, #444);
 }
 
 .caption {
@@ -294,10 +266,6 @@ cite { font-style: normal; }
 
 .meta a:hover { color: #444; }
 
-.tags { background: url('http://x.libdd.com/farm1/c8b5b1/3b000ce8/6B15D.png') no-repeat left center; }
-
-.tags a:before { content: '#'; }
-
 .reblog { background: url('http://x.libdd.com/farm1/c8b5b1/5e6b6c64/2BE7D.png') no-repeat left center; }
 
 .notes-count { background: url('http://x.libdd.com/farm1/c8b5b1/3ad02303/BC249.png') no-repeat left center; }
@@ -354,5 +322,106 @@ cite { font-style: normal; }
 .clear { clear: both; }
 
 .post p{
-	line-height: 1.8em;
+	font-size: 18px;
+}
+/*
+
+.tag_box{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+	.tag_box li, .tag_box a{
+	float:left;
+	height:24px;
+	line-height:20px;
+	position:relative;
+	font-size:11px;
+	}
+	.tag_box a{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#0089e0;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+	} 
+	.tag_box a:before{
+	content:"";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #0089e0 transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 12px 0;		
+	}
+	.tag_box a:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+	}
+	.tag_box a:hover{background:#555;}	
+
+.tag_box a:hover:before{border-color:transparent #555 transparent transparent;}
+*/
+
+/* tag_box ======================================================== */
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	list-style:none;
+	line-height:1.8em;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	border-radius: 3px;
+	border:1px dashed #ccc;
+	text-decoration:none;
+	color: #37a;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+
+/* .prev-next */
+.prev-next {
+	margin:5px 10px 5px 5px;
+	position:relative;
+}
+.prev-next .next{ 
+	float:right;
 }
