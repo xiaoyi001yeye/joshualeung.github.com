@@ -1,37 +1,43 @@
 ---
-layout: page
+layout: default
 tagline: Supporting tagline
 ---
 
 {% include JB/setup %}
 {% for post in paginator.posts %}
 <ul id="post-list">
-	
-	<!--text-->
-		<li class="post text">
-			<div class="body">
-				
-				<div class="rich-content"><h2 class="title"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to Invest in People">{{post.title}}</a></h2>
-	<a class="date" href="http://mingdays.wordpress.com/2011/11/29/%e5%8c%97%e9%a3%8e%e5%90%b9%e8%b5%b7/">
-                    	<span class="day">{{ post.date | date:"%d"}}</span>
-                    	<span class="month">{{ post.date | date:"%b"}}</span>
-	</a>
-
-				
-
-				{{post.content}}</div>
+	<li class="post text">
+		<div class="body">
+			<div class="rich-content">
+				<h2 class="title"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to Invest in People">{{post.title}}</a></h2>
+				<a class="date" href="http://mingdays.wordpress.com/2011/11/29/%e5%8c%97%e9%a3%8e%e5%90%b9%e8%b5%b7/">
+					<span class="day">{{ post.date | date:"%d"}}</span>
+					<span class="month">{{ post.date | date:"%b"}}</span>
+				</a>
+				{{post.content}}
 			</div>
-			<div class="meta">
-					<span class="tags">
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E7%A7%8B%E5%A4%A9">秋天 </a>
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E8%AF%97%E8%AF%8D">诗词 </a>
-						
-					</span>
-				
-			</div>
-		</li>
+		</div>
+		<div class="meta">
+			<span class="notes-count"><a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/post/2012-06-13/40028776394#notes">10&nbsp;热度</a></span>
+			<span class="tags">
+				{% assign tags_list = post.tags %}
+				{% if site.JB.tags_list.provider == "custom" %}
+				{% include custom/tags_list %}
+				{% else %}
+				{% if tags_list.first[0] == null %}
+				{% for tag in tags_list %} 
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>
+				{% endfor %}
+				{% else %}
+				{% for tag in tags_list %} 
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}</a>
+				{% endfor %}
+				{% endif %}
+				{% endif %}
+				{% assign tags_list = nil %}
+			</span>
+		</div>
+	</li>
 </ul>
 {% endfor %}
 

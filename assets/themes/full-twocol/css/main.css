@@ -152,6 +152,16 @@ body {
 	font-family: Songti;
 }
 
+.body h1,h2{
+	margin:10px 0px;
+	font-size: 24px;
+	color: RGB(0,119,34);
+}
+.body h2 a{
+	margin:10px 0px;
+	font-size: 24px;
+	color: RGB(0,119,34);
+}
 .chat .body { padding-bottom: 24px; }
 
 .title {
@@ -173,7 +183,7 @@ body {
 	margin-bottom: 18px;
 }
 
-.body ul { list-style: disc; }
+.body ul { list-style: none; }
 
 .body ol { list-style: decimal; }
 
@@ -265,6 +275,10 @@ cite { font-style: normal; }
 }
 
 .meta a:hover { color: #444; }
+
+.tags { background: url('http://x.libdd.com/farm1/c8b5b1/3b000ce8/6B15D.png') no-repeat left center; }
+
+.tags a:before { content: '#'; }
 
 .reblog { background: url('http://x.libdd.com/farm1/c8b5b1/5e6b6c64/2BE7D.png') no-repeat left center; }
 
@@ -424,4 +438,37 @@ cite { font-style: normal; }
 }
 .prev-next .next{ 
 	float:right;
+}
+
+/* pagination */
+.pagination{
+padding-left: 50px;
+line-height: 1.5em;
+}
+.pagination .previous,.next{
+font-size: 15px;
+width: 100px;
+margin: 0px;
+padding: 0px;
+}
+
+ul.pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+.current-page{
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF00FF;
+}
+#post-pagination a{
+	margin: 10px;
 }
