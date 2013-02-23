@@ -1,14 +1,14 @@
 <ul id="post-list">
-	
+			<span class="date" style="position: absolute; top: auto; bottom: auto;">
+                  <span class="month">{{ page.date | date:"%b"}}</span>
+                  <span class="day">{{ page.date | date:"%d"}}</span>
+               </span>
 	<!--text-->
 		<li class="post text">
 			<div class="body">
 				
 				<h1 class="emphnext">{{ page.title }}</h1>
-  <ul class="tag_box inline">
-  {% assign tags_list = page.tags %}
-  {% include JB/tags_list %}
-  </ul>
+
 
   {{ content }}
   <!-- JiaThis Button BEGIN -->
@@ -20,39 +20,39 @@
 </div>
 <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
 <!-- JiaThis Button END -->
-
-  <address class="signature">
-    <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a> 
-    <span class="date">{{ page.date | date_to_long_string }}</span>
-    <span class="location">{{ page.location }}</span>
-  </address>
-  
+  <BR/>
   <div class="prev-next">
   {% if page.next %}
-    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">下一篇 &rarr;</a>
+    <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">向右走 &rarr;</a>
   {% endif %}
   {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 上一篇</a>
+    <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; 向左走</a>
   {% endif %}
   </div>
 			</div>
 			<div class="meta">
 					<span class="tags">
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E7%A7%8B%E5%A4%A9">秋天 </a>
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E8%AF%97%E8%AF%8D">诗词 </a>
-						
+						{% assign tags_list = page.tags %}
+				{% if site.JB.tags_list.provider == "custom" %}
+				{% include custom/tags_list %}
+				{% else %}
+				{% if tags_list.first[0] == null %}
+				{% for tag in tags_list %} 
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>
+				{% endfor %}
+				{% else %}
+				{% for tag in tags_list %} 
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}</a>
+				{% endfor %}
+				{% endif %}
+				{% endif %}
+				{% assign tags_list = nil %}
 					</span>
 				
 			</div>
 		</li>
 </ul>
 
-<div id="page">
-	
-  
-  
-</div><!-- End Page -->
+
 
 {% include JB/comments %}
