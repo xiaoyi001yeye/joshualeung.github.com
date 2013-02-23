@@ -352,3 +352,7 @@ cite { font-style: normal; }
 #footer a { color: #444; }
 
 .clear { clear: both; }
+
+.post p{
+	line-height: 1.8em;
+}

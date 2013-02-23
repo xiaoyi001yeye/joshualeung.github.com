@@ -2,16 +2,44 @@
 layout: page
 tagline: Supporting tagline
 ---
+<style type="text/css">
+.pagination{
+padding-left: 50px;
+line-height: 1.5em;
+}
+.pagination .previous,.next{
+font-size: 15px;
+width: 100px;
+margin: 0px;
+padding: 0px;
+}
+
+ul.pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+.current-page{
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF00FF;
+}
+#post-pagination a{
+	margin: 10px;
+}
+</style>
 
 {% include JB/setup %}
 {% for post in paginator.posts %}
-<ul id="post-list">
-	
-	<!--text-->
-		<li class="post text">
-			<div class="body">
-				
-				<div class="rich-content"><h2 class="title"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to Invest in People">{{post.title}}</a></h2>
+<div class="post" id="post-533">
+			<h2 class="title"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to Invest in People">{{post.title}}</a></h2>
 	<a class="date" href="http://mingdays.wordpress.com/2011/11/29/%e5%8c%97%e9%a3%8e%e5%90%b9%e8%b5%b7/">
                     	<span class="day">{{ post.date | date:"%d"}}</span>
                     	<span class="month">{{ post.date | date:"%b"}}</span>
@@ -19,25 +47,8 @@ tagline: Supporting tagline
 
 				
 
-				{{post.content}}</div>
-			</div>
-			<div class="meta">
-				
-				
-					<span class="notes-count"><a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/post/2011-09-09/4890426#notes">0&nbsp;热度</a></span>
-				
-				
-					<span class="tags">
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E7%A7%8B%E5%A4%A9">秋天 </a>
-						
-							<a href="http://xiangjixuan.xiangjixuan1361584543563.tpl.diandian.com/?tag=%E8%AF%97%E8%AF%8D">诗词 </a>
-						
-					</span>
-				
-			</div>
-		</li>
-</ul>
+				{{post.content}}
+</div>
 {% endfor %}
 
 
@@ -79,4 +90,5 @@ tagline: Supporting tagline
   {% endif %}
 	</ul>
 </div>
+
 
