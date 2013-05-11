@@ -3,7 +3,7 @@ layout: post
 title: "三叔失踪了"
 description: ""
 category: 随笔
-tags: [杂谈]
+tags: [杂记]
 ---
 {% include JB/setup %}
 
