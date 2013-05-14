@@ -10,7 +10,7 @@ tags: [Jekyll]
 在参照[**Jekyll Quick Start**](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)一文对Jekyll进行安装和配置后，启动Jekyll --server时提示如下错误：
 >Forbidden
 >
->no access permission to `/'
+>no access permission to '/'
 >WEBrick/1.3.1 (Ruby/1.9.3/2012-04-20) at localhost:4000
 
 在Google上搜索了一下，网上提供的解决方案（参见[这里](https://github.com/imathis/octopress/issues/232)）是修改Jekyll读取文件时的默认编码，即将convertible.rb(去Jekyll安装目录里找吧)中的第29行（左右）由
