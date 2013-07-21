@@ -2,7 +2,7 @@
 layout: post
 title: "《苏菲的世界》阅读小记"
 description: ""
-category: Web
+category: web
 tags: [阅读, 哲学]
 ---
 {% include JB/setup %}
