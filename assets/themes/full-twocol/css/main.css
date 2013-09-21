@@ -149,7 +149,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 0 1px 2px #bbb;
 	font-size: 18px;
-	font-family: Songti;
+	font: 12px/1.5 Palatino,"Palatino Linotype", serif;
 }
 
 .body h1,h2{
