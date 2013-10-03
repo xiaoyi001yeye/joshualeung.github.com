@@ -20,12 +20,15 @@ In the evening of 13rd, August, we attended a local dinner in Bamanzi which is a
 
 
 ![the host of the show](http://pic.yupoo.com/24plus/BhSEt5of/medish.jpg)
+
 During the dinner, there was a local performance show too. All the actors and actresses wore brightly painted clothes, singing and dancing. The Tujias are very good at folk songs. Almost all the actors/actresses can sing. There was even an 80 yrs old man who might be the oldest actor in this city. He must be very healthy or he could not be so passionate on the stage. The host is a very beautiful Tujia girl. She has a loud and clear voice. OK, this is of Tujia characteristics.
 
 ![An 80 yrs old Tujia singer](http://pic.yupoo.com/24plus/BhSECp13/medish.jpg)
+
 The next day, we went to the Tusi City, which is a famous scenery spot in Enshi. Since it’s a local tour arranged by the conference, we had only 3 hours in the wall-protected city.  Tusi is a system in recent history of China that appoints the hereditary headmen of  national minority, or local emperors. So here is the place where the headmen worked and lived. Most of the houses are made of wood which is the primary material of Tujia architecture. But these are pseudo-classic architecture built around 2003. The Tusi did not live here but actually several hundreds away.
 
 ![Nine Into the Hall](http://pic.yupoo.com/24plus/Bk0DBD7k/medish.jpg)
+
 This picture was taken inside the woden palace. Its Chinese name is “九进堂” but I cannot find a proper english name for it. Maybe I can call it “Nine Advance Hall”. In ancient Chinese, nine means the most. So this represents the noble identity of the Tusi headman. The toft is built from low to high and has nine stages, thus comes the name “nine advance”.
 
 ![Nine Advance Hall](http://pic.yupoo.com/24plus/Bk0Dt2Ep/medish.jpg)
@@ -33,9 +36,11 @@ This picture was taken inside the woden palace. Its Chinese name is “九进堂
 The above picture is a bird’s-eye view of Nine Advance Hall. As you can see, the up-flying eaves are pretty special. 
 
 ![](http://pic.yupoo.com/24plus/Bk0DMcGa/medish.jpg)
+
 There was also a local show and it was really impressive. They performed the famous folk song “Tea 6″. The rhythm was very simple but  absolutely unforgettable. I learned it as soon as I heard it. Didn’t waste coming here, huh?
 
 ![Waving Dance](http://pic.yupoo.com/24plus/Bk0QXjac/medish.jpg)
+
 When the show is over, the actors gave a hand-swinging dance show on the square. Hand-swing dance is a representative cultural activity that only originated from the Tujia area. It’s kind of ethnic fold sacrifice dance. But it also seems facinating to us visitors.
 
 Here comes the end of my post. You can see more pictures on my online gallaries. Please refer to: http://24plus.yupoo.com
